@@ -1,0 +1,182 @@
+.logo-diacto{
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 10px;
+    left: 2px;
+    transform: perspective(500px) rotateY(-42deg);
+    -webkit-transform: perspective(500px) rotateY(-42deg);
+    -moz-transform: perspective(500px) rotateY(-42deg);
+    -ms-transform: perspective(500px) rotateY(-42deg);
+    -o-transform: perspective(500px) rotateY(-42deg);
+    animation-name: rotate-windows;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes rotate-windows {
+    0% {
+    transform: perspective(500px) rotateY(-42deg);
+    -webkit-transform: perspective(500px) rotateY(-42deg);
+    -moz-transform: perspective(500px) rotateY(-42deg);
+    -ms-transform: perspective(500px) rotateY(-42deg);
+    -o-transform: perspective(500px) rotateY(-42deg);
+    }
+    50% {
+    transform: perspective(500px) rotateY(0deg);
+    -webkit-transform: perspective(500px) rotateY(0deg);
+    -moz-transform: perspective(500px) rotateY(0deg);
+    -ms-transform: perspective(500px) rotateY(0deg);
+    -o-transform: perspective(500px) rotateY(0deg);
+    }
+    100% {
+    transform: perspective(500px) rotateY(-42deg);
+    -webkit-transform: perspective(500px) rotateY(-42deg);
+    -moz-transform: perspective(500px) rotateY(-42deg);
+    -ms-transform: perspective(500px) rotateY(-42deg);
+    -o-transform: perspective(500px) rotateY(-42deg);
+    }
+}
+.navbar-link{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-link-item{
+    font-size: 25px;
+    padding: 2px;
+    width: 60px;
+    color: black;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url("../../asssets/PIC2.png") no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.app-login{
+    width: 60%;
+    height:70%;
+    position: relative;
+    margin:7% auto;
+    border: 1px solid rgb(0, 0, 0,0);
+    background-color: rgba(255, 255, 255,0);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    font-size: 25px;
+    z-index: 10;
+    border-radius: 5px;
+}
+.app-container{
+    display: flex;
+}
+.app-component{
+    width: 40%;
+    background-color: rgb(0, 0, 0,0);
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+.white{
+    color: white;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.app-component-part{
+    margin: 20% auto;
+    height: 50%;
+    padding-top: 5rem;
+}
+
+.title-1{
+    padding: 20px;
+    text-align: center;
+}
+.app-component2{
+    width:60%;
+    height: 100%;
+}
+.app-component-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+}
+.input-section{
+    font-size: 15px;
+    text-align: left;
+    border-radius: 10px;
+    font-style: italic;
+    border: 0.5px solid;
+    padding: 5px 5px;
+    margin: 1rem 0;
+    background-color: rgb(0, 0, 0, 0);
+    width: 70%;
+}
+.app-part{
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+.btn{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+}
+.form-footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    width: 500px;
+    justify-content: space-evenly;
+    color: black;
+}
+.app-partright{
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 10px;
+    border-radius: 10px;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+}
+.btn1{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+}
+.btn1:hover{
+    background-color: #2e096e;
+}
+.btn:hover{
+    background-color: #2e096e;
+}
+.footer-text{
+    padding: 0.5rem 0.7rem;
+    font-size: 20px;
+}
+@media screen and (max-width:1580px) {
+    .app-login{
+        width: 90%;
+        height: 80%;
+        margin: 2% auto;
+    }
+    
+}
+@media  screen and (max-width:1130px) {
+    .app-component-form{
+        height: 60%;
+        width: 70%;
+    } 
+    .form-footer{
+        width: 70%;
+    }
+}
+

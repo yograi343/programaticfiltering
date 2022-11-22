@@ -1,0 +1,155 @@
+.navbar{
+    display: flex;
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-family);
+    background-color: #231F20;
+    color: white;
+}
+.navbar-logo{
+    margin-right: 1rem;
+}
+.logo-menu{
+    height: 45px;
+    width: 45px;
+}
+.navbar-links-profile{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    color: white;
+    font-size: 15px;
+}
+.gap1{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+.navbar-links-profile-logo{
+    border: 1px solid white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: white;
+}
+.logout-page{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 88px;
+    background: rgba(35, 31, 32, 0.7);
+    color: white;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 10;
+}
+.logout-page button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;  
+}
+.logout-page div{
+    padding: 0.5rem 0;
+}
+.menu{
+    height: 45px;
+    width: 45px;
+    color: white;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 89.2%;
+    left: 0;
+    top: 81px;
+    background: rgba(35, 31, 32, 0.8);
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 18px;
+    z-index: 10;
+}
+.sidebar-btn{
+    padding: 0.5rem 0.5rem;
+    font-size: 18px;
+    color: white;
+}
+.sidebar-btn:hover{
+    border-radius: 10px;
+    background-color: #00ABB3;
+}
+.logout-user:hover{
+    border-radius: 10px;
+    background-color: #00ABB3;
+}
+.logout-user >p{
+    padding: 0.5rem 0.5rem;
+    font-size: 18px;
+    color: white;
+}
+
+.sidebar1{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    z-index: 10;
+}
+.sidebar-btn1{
+    padding: 0.5rem 0.5rem;
+    color: white;
+}
+.sidebar-btn1:hover{
+    border-radius: 10px;
+    background-color: #00ABB3;
+}
+@media screen and (max-width:850px) {
+    .menu{
+        height: 30px;
+        width: 30px; 
+    }
+    .logo-menu{
+        height: 30px;
+        width: 30px;
+    }
+    .gap1{
+        font-size: 15px;
+    }
+    .navbar-links-profile-logo{
+        height: 30px;
+        width: 30px;
+    }
+    .logout-user p{
+        font-size: 18px;
+    }
+    .logout-page button{
+        font-size: 15px;
+    }
+    .sidebar{
+        top:50px;
+    }
+    .sidebar-btn{
+        font-size: 15px;
+    }
+    .sidebar-btn1{
+        font-size: 12px;
+    }
+    .logout-page{
+        top:50px;
+        padding: 0.5rem 1rem;
+    }
+}

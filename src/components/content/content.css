@@ -1,0 +1,22 @@
+.content-box{
+    position: absolute;
+    width: 98%;
+    height: 100%;
+    left:1rem; 
+    top:7rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    align-items: left;
+    color:  white;
+}
+.content-box h1, .content-box h2{
+    font-size: 30px;
+    padding-bottom: 3rem;
+}
+@media screen and (max-width:550px){
+    .content-box h1, .content-box h2{
+        font-size: 20px;
+    }
+}

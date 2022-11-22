@@ -1,0 +1,23 @@
+.gradient-bg{
+    background:#231F20;
+}
+.main-page{
+    background-color: #98CDEB;
+}
+
+.dashboard-space{
+    position: absolute;
+    left:1rem;
+    top:7rem;
+    display:flex;
+    width: 98.5%;
+    height:83%;
+    background: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif) no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+}
+@media screen  and (max-width:850px){
+    .dashboard-space{
+        width: 92%;
+    }   
+}

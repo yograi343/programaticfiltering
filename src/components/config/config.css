@@ -1,0 +1,83 @@
+.config-page{
+    top:4rem;
+    position: relative;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title h2{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+.title-container{
+    display: flex;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+}
+.page-form{
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 100px;
+    border-radius: 10px;
+    line-height: 33.73px;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    width: 70%;
+    color: black;
+    background-color: white;
+}
+.config-button{
+    height: 38px;
+    width: 152px;
+    border-radius: 9px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-family: var(--font-family);
+    line-height: 33.73px;
+    cursor: pointer;
+}
+.config-button:hover{
+    background: grey;
+}
+.input-text{
+    font-size: 18px;
+    text-align: left;
+    padding: 1px 8px;
+    border-radius: 5px;
+}
+.gap{
+    padding-bottom: 1rem;
+}
+.login-register{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-label{
+    text-align: left;
+    align-items: center;
+}
+.register div{
+    padding: 0 1rem;
+}
+@media  screen and (max-width:850px) {
+    .title h2{
+        font-size: 30px;
+    }
+    .title{
+        justify-content: center;
+    }
+}

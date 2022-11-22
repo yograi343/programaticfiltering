@@ -1,0 +1,179 @@
+.table-page{
+    position:fixed;;
+    top: 7rem;
+    left:1rem;
+    position: absolute;
+    width: 98%;
+    height: 85%;
+    background-color: rgb(0,0,0,0.3);
+}
+table, th ,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    margin:auto;
+}
+th, td{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+td{
+    text-align: center;
+    background-color: white;
+}
+tr{
+    line-height: 50px;
+    font-size: 25px;
+    background-color: white
+}
+th{
+    background-color: #00ABB3;
+    color: white;
+}
+.bt-section{
+    bottom: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+}
+.bt-section button{
+    width:51px;
+    height: 51px;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.add-bt{
+    width:7rem;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.add-bt:hover{
+    background-color: brown;
+}
+.delete-bt:hover{
+    background-color: orange;
+}
+.delete-bt{
+    width:7rem;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.manage-action{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.manage-action button{
+    margin: 0 10px;
+}
+.userEdit-page{
+    z-index: 70;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width:50%;
+    margin: auto;
+    top:30%;
+    font-size: 300px;
+    color: white;
+}
+.edit-user-page{
+    position: relative;
+    margin:auto;
+    width: 50%;
+    top:7rem;
+    margin: auto;
+    /* ff 3.6+ */
+    background:grey;
+    color: white;
+    border-radius: 10px;
+}
+.edit-profile-logo{
+    margin: 0.5rem;
+    border: 1px solid red;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: red;
+}
+.edit-user-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+
+}
+.edit-user-form label{
+    padding: 0.5rem auto ;
+    margin-bottom: 1rem;
+}
+.save-bt{
+    background-color: #00ABB3;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 1px;
+    color: white;
+    width: 7rem;
+    cursor: pointer;
+}
+.save-bt:hover{
+    background-color: #0D4C92;
+}
+input{
+    font-size: 25px;
+    line-height: 33.73px;
+    text-align: center;
+    margin-left: 1rem;
+
+}
+.edit-user-page-title{
+    display: flex;
+    justify-content: space-evenly;
+}
+.edit-user-form-line{
+    display: flex;
+    margin: auto;
+}
+.deleteWarning{
+    text-align: center;
+    padding: 2rem;
+}
+.deleteWarning div{
+    display: flex;
+    justify-content: center;
+}
+.deleteWarning div div{
+    margin: 2rem 1rem;
+}
+.addform input{
+    padding: 0px 10px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.addform{
+    text-align: center;
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

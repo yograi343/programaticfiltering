@@ -1,0 +1,9 @@
+export {default as Config} from './config/Config';
+export {default as Dashboards} from './dashboards/Dashboards';
+export {default as Main} from './main/Main';
+export {default as Register} from './register/Register';
+export {default as Mangeuser} from './manageusers/Manageusers';
+export {default as Password} from './password/Password';
+export {default as Edituser} from './edituser/Edituser';
+export {default as Mu} from './manageusers/Mu';
+export {default as Login2} from './login/Login2';
